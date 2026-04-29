@@ -19,9 +19,7 @@ I spent a long stretch going deep on **fundamentals**—math, classical ML, to m
 
 **[llama_3.1_8b_base_sft](https://github.com/dankit/llama_3.1_8b_base_sft)** — **Instruction tuning** the Llama 3.1 8B **base** checkpoint with **LoRA**, **quantization** exploration, complete with evals across the board (tinyMMLU, IFEval).
 
-**[Attention is all you need](https://github.com/dankit/transformers)** — After classical ML theory, worked up to understanding and implementing the original transformers paper in PyTorch: sinusoidal positional encodings, LayerNorm, and different flavors of transformers (encoder-only, decoder-only, encoder-decoder). Some statistics learning for LayerNorm/RMSNorm; geometry/trigonometry for positional encodings, whether sinusoidal or eventually RoPE.
-
-**[Classical ML](https://github.com/dankit/ML-learning)** — Classical ML before transformers: linear/logistic regression, linear algebra, calculus, shallow neural networks, loss functions, training loops, MNIST, etc. I understand surface-level concepts for CNNs, RNNs, LSTM, random forests, and more, but intentionally skipped deeper coverage to be time-efficient.
+**[Attention is all you need](https://github.com/dankit/transformers)** — After learning classical ML theory, worked up to understanding and implementing the original transformers paper in PyTorch: sinusoidal positional encodings, LayerNorm, and different flavors of transformers (encoder-only, decoder-only, encoder-decoder). Some statistics learning for LayerNorm/RMSNorm; geometry/trigonometry for positional encodings, whether sinusoidal or eventually RoPE.
 
 **Other** — The RAG project above touches on encoder-only transformers and their applications: from the original BERT model to variants (e.g. XLM-RoBERTa) for embeddings and reranking, plus how they're trained.
 
